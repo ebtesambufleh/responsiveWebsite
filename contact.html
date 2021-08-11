@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page</title>
+    <script src="https://kit.fontawesome.com/f6daa4b108.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="nav">
+            <div>
+                <i class="fas fa-chart-pie logo-size"></i>
+                <label class="logo">Responsive Website</label>
+            </div>
+            <nav class="main-nav">
+
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="product.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </nav>
+            <a href="login.html" class="navBtn">LogIn</a>
+            <a href="javascript:void(0);" class="menu btn" onclick="openNav()"><i class="fa fa-bars menuIcon"></i> </a>
+        </header>
+        <div class="overly" id="mobmenu">
+            <a href="javascript:void(0);" class="closeBtn" onclick="closeNav()"><i class="fa fa-bars menuIcon"></i></a>
+            <div class="overlyContent">
+                <div>
+                    <i class="fas fa-chart-pie logo-size"></i>
+                    <label class="logo">Responsive Website</label>
+                </div>
+                <a href="home.html">Home</a>
+                <a href="#">About</a>
+                <a href="product.html">Service</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+        <!--Top continer-->
+        <section class="contentwrap">
+            <div class="contact-form">
+                <div class="BillAddr">
+                    <h3>Billing Address</h3>
+                    <label for="name"><i class="fa fa-user"></i> Full Name</label>
+                    <input class="contactform " type="text" name="name" placeholder="name" required>
+                    <label for="Email"><i class="fa fa-envelope"></i> Email</label>
+                    <input class="contactform " type="Email" name="Email" placeholder="Email" required>
+                    <label for="adress"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input class="contactform " type="text" name="adress" placeholder="adress" required>
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input class="contactform " type="text" name="city" placeholder="city" required>
+                    <div class="try">
+                        <div class="alignElm">
+                            <label for="state">State</label>
+                            <input class="contactform " type="text" name="state" placeholder="state" required>
+                        </div>
+                        <div class="alignElm">
+                            <label for="zip">Zip</label>
+                            <input class="contactform " type="text" name="zip" placeholder="zip" required>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="payment">
+                    <h3>Payment</h3>
+                    <label for="fname">Accepted Cards</label>
+                    <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    </div>
+                    <label for="nameCard">Name on Card</label>
+                    <input class="contactform " type="text" name="nameCard" placeholder="Name on Card" required>
+                    <label for="cardNumber">Credit card number</label>
+                    <input class="contactform " type="text" name="cardNumber" placeholder="card number" required>
+                    <label for="month">Exp Month</label>
+                    <input class="contactform " type="text" name="month" placeholder="Month" required>
+                    <div class="try">
+                        <div class="alignElm">
+                            <label for="year">Exp Year</label>
+                            <input class="contactform " type="text" name="year" placeholder="Year" required>
+                        </div>
+                        <div class="alignElm">
+                            <label for="cvv">CVV</label>
+                            <input class="contactform " type="text" name="cvv" placeholder="CVV" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Continue to checkout" class="pymenybtn">
+        </section>
+        <!---boxes section-->
+        <section class="boxes-prod">
+            <div class="box-prod">
+                <img src="img/pic5.jpg" alt="">
+                <h3>Anlytic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere.</p>
+            </div>
+            <div class="box-prod">
+                <img src="img/pic7.jpg" alt="">
+                <h3>Markiting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere.</p>
+            </div>
+            <div class="box-prod">
+                <img src="img/pic9.jpg" alt="">
+                <h3>Devlopment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere.</p>
+            </div>
+            <div class="box-prod">
+                <img src="img/pic3.jpg" alt="">
+                <h3>Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, facere.</p>
+            </div>
+        </section>
+        <!--footer-->
+        <!--footer-->
+        <footer>
+            <div>
+                <h3> <i class="fas fa-chart-pie logo-size"></i> Responsive Website</h3>
+                <p class="footerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+            <div>
+                <p>USEFUL LINKS</p>
+                <div class="links">
+                    <ul>
+                        <li><i class="fa linkscol fa-angle-right"></i><a href="home.html">  Home</a></li>
+                        <li><i class="fa linkscol fa-angle-right"></i><a href="#">  About</a></li>
+                        <li><i class="fa linkscol fa-angle-right"></i><a href="product.html">  Service</a></li>
+                        <li><i class="fa linkscol fa-angle-right"></i><a href="contact.html">  Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p>Follow Us</p>
+                <i class=" circle fab fa-twitter"></i>
+                <i class=" circle fab fa-instagram"></i>
+                <i class=" circle fab fa-google-plus-g"></i>
+                <i class="circle fab fa-snapchat-ghost"></i>
+            </div>
+
+        </footer>
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
+</body>
+
+</html>
